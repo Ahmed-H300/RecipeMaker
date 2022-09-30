@@ -49,7 +49,7 @@ class _FilterScreenState extends State<FilterScreen> {
                 final selectedFilters = {
                   'gluten': _glutenFree,
                   'lactose': _lactoseFree,
-                  'vegan': _lactoseFree,
+                  'vegan': _vegan,
                   'vegetarian': _vegetarian,
                 };
                 widget.saveFilter(selectedFilters);
